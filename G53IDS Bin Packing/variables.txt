@@ -1,0 +1,24 @@
+//to adjust the precision level of the probabilities listed in the Markov Chain
+100
+//set the starting state of the Markov Chain
+5
+//bin capacity, note: bincapacity must be greater than or equal to the largest item size within the stream of items
+20
+//minimum item size
+5
+//maximum item size 
+10
+//number of items to place
+100
+//minimum policy matrix score
+1
+//maximum policy matrix score
+5
+//choose whether to evolve policy matrix only (set value to 1) or evolve both the policy and transition matrices (set value to 0) 
+1
+//select algorithm to generate the policy matrix to compare against, if above has been set to 0
+//input 1 to compare against first fit
+//input 2 to compare against best fit
+//input 3 to compare against worst fit
+//input 4 to read policy matrix from a file
+//otherwise leave blank
